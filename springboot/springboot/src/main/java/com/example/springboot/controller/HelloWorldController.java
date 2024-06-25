@@ -20,5 +20,10 @@ public class HelloWorldController {
     public String helloWorld3() {
         return "Olá, Mundo, sou o endpoint 'END3' de teste do Spring.";
     }
+
+    @GetMapping("/hello4")
+    public String helloWorld4() {
+        return "Olá, Mundo, sou o endpoint 'END3' de teste do Spring.";
+    }
 }
 
